@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WalmartLabsTest</string>
+
+    //String concatenation
+    <string name="country_name_and_region">%1$s, %2$d</string>
+
+    // error handling
+    <string name="error_warning">Empty Dataset, nothing to show</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/countryInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/countryNameAndRegion"
+        style="@style/CountryListText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="0dp"
+        android:layout_weight="0.9"
+        tools:text="Country Name" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/countryCode"
+            style="@style/CountryListText"
+            tools:text="Country code" />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/countryCapital"
+        style="@style/CountryListText"
+        android:paddingTop="25dp"
+        tools:text="Country Capital" />
+
+
+</androidx.cardview.widget.CardView>
